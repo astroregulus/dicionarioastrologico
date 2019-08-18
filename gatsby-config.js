@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Dicionário Astrológico`,
+        short_name: `Dicionário Astrológico`,
         start_url: `/`,
         background_color: `#021D49`,
         theme_color: `#021D49`,

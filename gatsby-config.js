@@ -23,7 +23,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#021D49`,
         theme_color: `#021D49`,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: `src/images/dicionario_logo.png`, // This path is relative to the root of the site.
       },
     },

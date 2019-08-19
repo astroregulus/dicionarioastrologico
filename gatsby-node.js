@@ -7,7 +7,8 @@
 const path = require(`path`)
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
-  const blogPostTemplate = path.resolve(`src/templates/palavra.js`)
+  const palavraTemplate = path.resolve(`src/templates/palavra.js`)
+  const letraTemplate = path.resolve(`src/templates/letra.js`)
   const result = await graphql(`
     {
       allMarkdownRemark(
@@ -32,8 +33,19 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.path,
-      component: blogPostTemplate,
+      component: palavraTemplate,
       context: {}, // additional data can be passed via context
+    })
+  });
+  const letters = ["a","c"];
+  letters.forEach( letter => {
+    createPage({
+      path: `/${letter}`,
+      component: letraTemplate,
+      context: {
+        globLetter: `/${letter}/*`,
+        letra: `${letter}`
+      }
     })
   })
 }

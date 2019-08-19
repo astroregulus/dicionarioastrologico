@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Link } from 'gatsby'
 
 const LetterPage = ({
     data: {
@@ -12,7 +13,7 @@ const LetterPage = ({
   <Layout>
     <SEO title={`Letra ${letra}`} />
     <h1>{letra}</h1>
-    {edges.map(edge => <p>{edge.node.frontmatter.title}</p>)}
+    {edges.map(edge => <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>)}
   </Layout>
 )
 

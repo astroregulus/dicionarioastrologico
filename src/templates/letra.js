@@ -13,7 +13,12 @@ const LetterPage = ({
   <Layout>
     <SEO title={`Letra ${letra}`} />
     <h1>{letra}</h1>
-    {edges.map(edge => <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>)}
+    <div style={{
+      display: "flex",
+      flexFlow: "column"
+    }}>
+      {edges.map(edge => <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>)}
+    </div>
   </Layout>
 )
 

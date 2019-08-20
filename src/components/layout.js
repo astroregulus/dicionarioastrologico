@@ -35,7 +35,12 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
+        <footer
+          style={{
+            marginTop: `20px`
+          }}
+        >
+          <a href="https://forms.gle/nALmE1pdVX7mvVpi7" target="_blank">Contribuir</a>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>

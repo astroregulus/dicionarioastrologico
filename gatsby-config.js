@@ -3,6 +3,7 @@ module.exports = {
     title: `Dicionário Astrológico`,
     description: `Dicionário de termos astrológicos`,
     author: `@astroregulus`,
+    siteUrl: `https://www.dicionarioastrologico.com.br`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

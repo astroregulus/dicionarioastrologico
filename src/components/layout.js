@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
             marginTop: `20px`
           }}
         >
-          <a href="https://forms.gle/nALmE1pdVX7mvVpi7" target="_blank">Contribuir</a>
+          <a href="https://forms.gle/nALmE1pdVX7mvVpi7" target="_blank" rel="noopener noreferrer">Contribuir</a>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>

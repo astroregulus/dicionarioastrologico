@@ -4,6 +4,18 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link, graphql } from 'gatsby'
 
+const linkStyle = {
+  textDecoration: "none",
+  backgroundColor: "#011830",
+  height: "32px",
+  color: "white",
+  display: "flex",
+  alignItems: "center",
+  padding: "0 10px",
+  marginBottom: "5px",
+  justifyContent: "space-between"
+}
+
 const LetterPage = ({
     data: {
       allMarkdownRemark: { edges },
@@ -17,7 +29,7 @@ const LetterPage = ({
       display: "flex",
       flexFlow: "column"
     }}>
-      {edges.map(edge => <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>)}
+      {edges.map(edge => <Link to={edge.node.frontmatter.path} style={linkStyle}>{edge.node.frontmatter.title} <span>></span></Link>)}
     </div>
   </Layout>
 )

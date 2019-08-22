@@ -37,7 +37,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       context: {}, // additional data can be passed via context
     })
   });
-  const letters = ["a","c"];
+  const letters = ["a","c","j","l","m","s","v"];
   letters.forEach( letter => {
     createPage({
       path: `/${letter}`,

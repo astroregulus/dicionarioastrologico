@@ -16,6 +16,8 @@ const linkStyle = {
   margin: "5px"
 }
 
+const letters = ["a","c","j","l","m","s","v"];
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -26,9 +28,10 @@ const IndexPage = () => (
     <div style={{
           display: "flex",
           flexFlow: "row",
+          flexWrap: "wrap"
         }}>
-        <Link to="/a" style={linkStyle}>A</Link>
-        <Link to="/c" style={linkStyle}>C</Link>
+
+        {letters.map( letter => <Link to={`/${letter}`} style={linkStyle}>{letter.toUpperCase()}</Link>)}
 
     </div>
 

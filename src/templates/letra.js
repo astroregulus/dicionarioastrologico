@@ -23,8 +23,8 @@ const LetterPage = ({
     pageContext: { letra }
   }) => (
   <Layout>
-    <SEO title={`Letra ${letra}`} />
-    <h1>{letra}</h1>
+    <SEO title={`Letra ${letra.toUpperCase()}`} />
+    <h1>{letra.toUpperCase()}</h1>
     <div style={{
       display: "flex",
       flexFlow: "column"

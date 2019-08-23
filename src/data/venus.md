@@ -3,4 +3,7 @@ path: "/v/venus"
 title: "Vênus"
 ---
 
-Em construção...
+**Domicílio**: Touro e Libra  
+**Exílio**: Áries e Escorpião  
+**Exaltação**: Peixes  
+**Queda**: Virgem  

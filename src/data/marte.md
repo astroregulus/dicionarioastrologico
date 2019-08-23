@@ -3,4 +3,7 @@ path: "/m/marte"
 title: "Marte"
 ---
 
-Em construção...
+**Domicílio**: Áries e Escorpião  
+**Exílio**: Touro e Libra  
+**Exaltação**: Capricórnio  
+**Queda**: Câncer  

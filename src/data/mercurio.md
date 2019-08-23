@@ -3,4 +3,5 @@ path: "/m/mercurio"
 title: "Mercúrio"
 ---
 
-Em construção...
+**Domicílio**: Peixes e Virgem  
+**Exílio**: Sagitário e Peixes   

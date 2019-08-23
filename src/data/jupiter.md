@@ -3,4 +3,7 @@ path: "/j/jupiter"
 title: "Jupiter"
 ---
 
-Em construção...
+**Domicílio**: Sagitário e Peixes  
+**Exílio**: Gêmeos e Virgem  
+**Exaltação**: Câncer  
+**Queda**: Capricórnio  

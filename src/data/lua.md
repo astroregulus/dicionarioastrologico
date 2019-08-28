@@ -3,4 +3,7 @@ path: "/l/lua"
 title: "Lua"
 ---
 
-Em construção...
+**Domicílio**: Câncer  
+**Exílio**: Capricórnio   
+**Exaltação**: Touro  
+**Queda**: Escorpião 

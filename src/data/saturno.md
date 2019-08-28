@@ -3,4 +3,7 @@ path: "/s/saturno"
 title: "Saturno"
 ---
 
-Em construção...
+**Domicílio**: Capricórnio e Aquário  
+**Exílio**: Câncer e Leão   
+**Exaltação**: Libra  
+**Queda**: Áries 
